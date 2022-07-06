@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+
+
+.payment{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    margin-top: 25px;   
+}
+
+.cart-image{
+    margin-right: 50px;
+    position: relative;
+    cursor: pointer;
+}
+
+.itens{
+    position: absolute;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: auto;
+    background-color: blue;
+    color: white;
+    margin-top: 23px;
+    margin-right: 40px;
+}
+
+.checked{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.checked button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 25px;
+}
+
+.itens-content{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.itens-content{
+    margin-top: 50px;
+    margin-right: 10px;
+}
+
+.itens-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
